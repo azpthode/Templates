@@ -34,7 +34,7 @@
         "East US 2"
       ],
       "metadata": {
-        "description": "Restricts choises to where premium storage is located in the US"
+        "description": "Restrict choices"
       }
     },
     "windowsOSVersion": {
@@ -176,9 +176,8 @@
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
-          }
-        },
-        "dataDisks": [
+          },
+          "dataDisks": [
             {
               "name": "datadisk1",
               "diskSizeGB": "[parameters('sizeOfDiskInGB')]",
